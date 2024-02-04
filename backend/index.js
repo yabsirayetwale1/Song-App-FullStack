@@ -12,7 +12,7 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors());
 
-app.use('/songs', postRoutes);
+app.use(postRoutes);
 
 const PORT = process.env.PORT|| 5000;
 // const CONNECTION_URL = 'mongodb+srv://yabsira:yabsira@cluster0.uvc1l0s.mongodb.net/';
