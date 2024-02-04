@@ -8,8 +8,5 @@
         "src": "/songs",
         "dest": "/"
       }
-   ],
-  "rewrites":[
-  {"source":"/(.*)","destination":"/"}
-  ]
+   ]
   }
